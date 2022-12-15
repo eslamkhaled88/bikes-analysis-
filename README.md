@@ -21,9 +21,12 @@ You are required to model the demand for shared bikes with the available indepen
 
 
 # Features 
-datetime           
-season             
-holiday            
+datetime : date and time 
+season :  There are 4 categories
+Spring ,Summer ,Fall, Winter        
+holiday: Weather the day is a holiday.
+0 : Not a Holiday
+1 : Holiday           
 workingday         
 weather            
 temp               
