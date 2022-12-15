@@ -21,18 +21,24 @@ You are required to model the demand for shared bikes with the available indepen
 
 
 # Features 
-datetime : date and time 
-season :  There are 4 categories
+* datetime : date and time 
+* season :  There are 4 categories
 Spring ,Summer ,Fall, Winter        
-holiday: Weather the day is a holiday.
+* holiday: Weather the day is a holiday.
 0 : Not a Holiday
 1 : Holiday           
-workingday         
-weather            
-temp               
-humidity           
-windspeed          
-casual             
-registered         
-rented_bikes_count 
-Profit   
+* workingday: If the day is working.
+0 : Neither weekend nor holiday
+1 : Not a working day        
+* weather  The weather on that particular day
+1 : Clear, Few clouds, Partly cloudy, Partly cloudy
+2 : Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist
+3 : Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds
+4 : Heavy Rain + Ice Pallets + Thunderstorm + Mist, Snow + Fog           
+* temp: Temperature in Celsius              
+* humidity : (in Percentage)          
+* windspeed : wind speed 
+* casual: Count of casual users. Casual users are users who use the service occasionally or don't have a subscription to the service.            
+*registered: Count of registered users. Registered users are those who register for an annual or 30-day membership and rent more frequently        
+* rented_bikes_count 
+* Profit   
